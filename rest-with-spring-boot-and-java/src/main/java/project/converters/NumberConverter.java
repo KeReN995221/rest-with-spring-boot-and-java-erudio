@@ -1,4 +1,4 @@
-package __FirstStepsInJavawithSpringBoot.converters;
+package project.converters;
 
 public class NumberConverter {
 

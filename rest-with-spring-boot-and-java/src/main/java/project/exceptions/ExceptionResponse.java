@@ -1,4 +1,4 @@
-package __FirstStepsInJavawithSpringBoot.exceptions;
+package project.exceptions;
 
 import java.io.Serializable;
 import java.util.Date;

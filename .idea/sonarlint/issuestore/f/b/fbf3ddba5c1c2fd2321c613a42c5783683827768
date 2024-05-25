@@ -1,0 +1,14 @@
+
+J
+java:S5411"(Use a primitive boolean expression here.(ŸØ‚Öùÿÿÿÿ8ñ¤ÄŒû1
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±ßğÊüÿÿÿÿJ$06281ec2-44c7-47cf-9203-a663014fcdf1
+‚
+java:S1118":Add a private constructor to hide the implicit public one.(ã‚Î±ÿÿÿÿÿ8˜³ÃŒû1J$50d6b90c-37ef-43e5-adec-33fe2bc0028d
+
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ğÊ¶«üÿÿÿÿ8ÕäÁŒû1J$be9000aa-dda4-4bbd-83ab-cc06200f4440
+
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ğÊ¶«üÿÿÿÿ8ÚäÁŒû1J$f777c12b-0941-409b-bd8e-9db4f50c2c01
+
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(ÇÊã¦8İäÁŒû1J$535d1aad-2378-40dd-b2ff-990d488279ee
+
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(ÇÊã¦8İäÁŒû1J$ba17e5dd-880f-42dc-a733-cc005bdd45ab

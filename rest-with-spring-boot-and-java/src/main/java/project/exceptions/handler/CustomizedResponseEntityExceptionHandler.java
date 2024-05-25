@@ -1,7 +1,7 @@
-package __FirstStepsInJavawithSpringBoot.exceptions.handler;
+package project.exceptions.handler;
 
-import __FirstStepsInJavawithSpringBoot.exceptions.ExceptionResponse;
-import __FirstStepsInJavawithSpringBoot.exceptions.UnsupportedMathOperationException;
+import project.exceptions.ExceptionResponse;
+import project.exceptions.UnsupportedMathOperationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

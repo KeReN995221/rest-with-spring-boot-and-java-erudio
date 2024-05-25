@@ -1,4 +1,4 @@
-package project;
+package project.controller;
 
 import project.converters.NumberConverter;
 import org.springframework.web.bind.annotation.*;

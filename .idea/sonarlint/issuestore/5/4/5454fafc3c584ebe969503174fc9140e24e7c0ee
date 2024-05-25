@@ -1,9 +1,9 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷ÆÇşÿÿÿÿ8Œ¬úëú1J$731f50ef-38dd-4684-941b-da252b918e4d
-¡	java:S115
-"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…õúÿÿÿÿ8•¬úëú1J$c7f64424-6060-4f2e-bb33-54bec3bd4a23
+¤
+java:S1192"\Define a constant instead of duplicating this literal "Please enter a valid number" 6 times.(¼İóúÿÿÿÿ8¼åÔ‚û1J$e44cb228-df31-432f-a1c3-0994c2614b68
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷ÆÇşÿÿÿÿ8ÍåÔ‚û1J$fac63705-9e15-4747-a9fb-811cca9a7d97
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…õúÿÿÿÿ8ŒæÔ‚û1J$74fb01f0-bc2d-4645-a9db-cff43d06180a
 t
-java:S1068
-",Remove this unused "template" private field.(…õúÿÿÿÿ8¢¬úëú1J$8862a472-6cd3-422a-a79a-6f837b7e5454
+java:S1068",Remove this unused "template" private field.(…õúÿÿÿÿ8ÍæÔ‚û1J$28ae095a-b8c2-400d-9b47-94bd0892464d
 n
-java:S1068"+Remove this unused "counter" private field.(ÓÉ Ÿ8£¬úëú1J$5e2e848e-bf0a-4a6a-859a-47bbed5f4138
+java:S1068"+Remove this unused "counter" private field.(ÓÉ Ÿ8ÍæÔ‚û1J$86a23d74-25e4-4e49-83f4-3057a74698be
