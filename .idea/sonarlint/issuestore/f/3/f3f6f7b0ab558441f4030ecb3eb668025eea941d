@@ -1,0 +1,15 @@
+
+”
+java:S1192!"QDefine a constant instead of duplicating this literal "Person not found" 3 times.(¡Õÿ¨8ÖÁàåû1J$52e61df5-646a-41be-9ba5-477b399ad7e4
+
+java:S1488("ZImmediately return this expression instead of assigning it to the temporary variable "vo".(Ì’òà8ØÁàåû1J$386c502f-6f95-45cc-b866-7dbea8ff1b34
+
+java:S14884"ZImmediately return this expression instead of assigning it to the temporary variable "vo".(Ì’òà8ØÁàåû1J$deeed43e-0826-49f4-9591-e1912b9a363e
+¢
+java:S1488C"ZImmediately return this expression instead of assigning it to the temporary variable "vo".(ó²ï°üÿÿÿÿ8ØÁàåû1J$25bb2ede-5d37-4923-b08c-93629ab243b5
+
+java:S2629:"7Use the built-in formatting to construct this argument.(ŸÜóÎøÿÿÿÿ8ÛÁàåû1J$2dc20085-eced-4fb7-a72c-dd03228798cd
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8çÁàåû1J$62ad60d1-888b-41b6-9481-b791743df06a
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8çÁàåû1J$29a067a4-1eb1-44d3-bbcf-1ee82654fa04
