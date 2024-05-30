@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import project.data.vo.v1.PersonVO;
 import project.data.vo.v2.PersonVOV2;
 import project.services.PersonServices;
-
+import project.util.MediaType;
 import java.util.List;
 
 @RestController
@@ -16,27 +16,40 @@ public class PersonController {
     private PersonServices service;
 
 
-    @GetMapping()
+    @GetMapping(
+            produces = {MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON
+                ,MediaType.APPLICATION_YML})
     public List<PersonVO> getAll(){
         return service.findAll();
     }
 
-    @GetMapping(value = "/{id}")
+    @GetMapping(value = "/{id}"
+            ,produces = {MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON
+                ,MediaType.APPLICATION_YML})
     public PersonVO getById(@PathVariable (value = "id") Long id){
         return service.searchById(id);
     }
 
-    @PostMapping()
+    @PostMapping(
+            consumes = {MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON}
+            ,produces = {MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON
+            ,MediaType.APPLICATION_YML})
     public PersonVO create(@RequestBody PersonVO person){
         return service.create(person);
     }
 
-    @PostMapping(value = "/v2")
+    @PostMapping(value = "/v2"
+            ,consumes = {MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON}
+            ,produces = {MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON
+            ,MediaType.APPLICATION_YML})
     public PersonVOV2 createV2(@RequestBody PersonVOV2  person){
         return service.createV2(person);
     }
 
-    @PutMapping("/update")
+    @PutMapping(value = "/update"
+            ,consumes = {MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON}
+            ,produces = {MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON
+            ,MediaType.APPLICATION_YML})
     public PersonVO update(@RequestBody PersonVO person){
         return service.update(person);
     }

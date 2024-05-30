@@ -1,13 +1,18 @@
 package project.data.vo.v1;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import org.springframework.hateoas.RepresentationModel;
 
 import java.io.Serializable;
 import java.util.Objects;
 
 @JsonPropertyOrder({"id", "address", "firstName",  "lastName", "gender"})
-public class PersonVO implements Serializable {
+public class PersonVO extends RepresentationModel<PersonVO> implements Serializable {
+
     private static final long serialVersionUID = 1L;
-    private Long id;
+
+    @JsonProperty("id")
+    private Long key;
     private String firstName;
     private String address;
     private String lastName;
@@ -15,12 +20,12 @@ public class PersonVO implements Serializable {
 
     public PersonVO() {}
 
-    public Long getId() {
-        return id;
+    public Long getKey() {
+        return key;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setKey(Long key) {
+        this.key = key;
     }
 
     public String getFirstName() {
@@ -60,11 +65,11 @@ public class PersonVO implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         PersonVO personVO = (PersonVO) o;
-        return Objects.equals(id, personVO.id) && Objects.equals(firstName, personVO.firstName) && Objects.equals(address, personVO.address) && Objects.equals(lastName, personVO.lastName) && Objects.equals(gender, personVO.gender);
+        return Objects.equals(key, personVO.key) && Objects.equals(firstName, personVO.firstName) && Objects.equals(address, personVO.address) && Objects.equals(lastName, personVO.lastName) && Objects.equals(gender, personVO.gender);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, firstName, address, lastName, gender);
+        return Objects.hash(key, firstName, address, lastName, gender);
     }
 }
